@@ -22,17 +22,17 @@ print('4. Divide')
 
 while True:
     choice = input('Select your operation (1/2/3/4): ')
-# Basically, if the user didn't input 1, 2, 3 or 4, the program would stop running.
+
     if choice not in ('1', '2', '3', '4'):
-        print('Invalid choice. Exiting.')
+        print('Invalid choice. Exiting.') # Basically, if the user didn't input 1, 2, 3 or 4, the program would stop running.
         break
 
     try:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
-# If the user did not input an valid number, the program would tell you to input a valid number.
+
     except ValueError:
-        print("Invalid input. Please enter a number.")
+        print("Invalid input. Please enter a number.") # If the user did not input an valid number, the program would tell you to input a valid number.
         continue
 
     if choice == '1':
