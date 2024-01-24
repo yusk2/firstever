@@ -4,10 +4,10 @@ import random
 Length = int(input('Enter password Length: '))
 
 print('''Choose the characters you want to use in your password:
-         1. Letters
-         2. Digits
-         3. Special characters
-         4. Exit''')  # input what characters you want in it, for example, if you want only letters, put 1 and then 4
+1. Letters
+2. Digits
+3. Special characters
+4. Exit''')  # input what characters you want in it, for example, if you want only letters, put 1 and then 4
 
 characterList = ""
 
