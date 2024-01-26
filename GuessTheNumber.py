@@ -3,10 +3,9 @@ import random
 name = input('What is your name? ')
 print('Hello', name, 'try and guess my number(within 1-20): ')
 number = random.randint(1, 20)
-
+guess = int(input())
 for guessesTaken in range(1, 7):
     print('Choose your number: ')
-    guess = int(input())
     if guess > number:
         print('Your number is too high, try again!')
     elif guess < number:
